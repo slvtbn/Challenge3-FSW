@@ -295,10 +295,13 @@ p {
   }
   .hero {
     flex-direction: column;
+    width: 95%;
+    margin: auto;
   }
   .hero_text {
-    width: 94%;
+    width: 100%;
     padding-top: 5%;
+    margin: 0;
   }
 
   .hero_text p {
@@ -308,7 +311,14 @@ p {
   .hero_img {
     width: 100%;
     margin-top: 10%;
-    margin-left: 3%;
+  }
+
+  .hero_text p {
+    width: 100%;
+  }
+
+  .hero_img img {
+    padding-left: 3%;
   }
 
   .services {
