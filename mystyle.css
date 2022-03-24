@@ -334,7 +334,7 @@ p {
   }
 
   .services_img img {
-    width: 250px;
+    width: 300px;
   }
 
   .why_us {
@@ -394,6 +394,11 @@ p {
   .question_left,
   .question_right {
     width: 100%;
+    margin: 10px 0;
+  }
+
+  .select_box {
+    margin-bottom: 20px;
   }
 
   .question p {
